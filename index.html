@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
@@ -21,44 +22,69 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand head" href="index.html">Isaac Pehrson</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
+           
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="../navbar/">Default</a></li>
-              <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                <li class="active nav-right"><a href="index.html">About</a></li>
+                <li class="nav-right"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </nav>
       <!-- End Static navbar -->
 
+      <!-- Begin Main Body Content -->
+      <div class="container">
+        <div class="row">
+            <div class="col-md-9 main-content">
+                <h1 class="content-header">About Me</h1>
+
+                <figure>
+                    <img class="home-image" src="assets/ambr.jpg" alt="">
+                </figure>
+
+                <p>Hi my name's Isaac, I'm a Web Developer, Triathlete, and Extreme Sports enthusiast. I currently am working at eBay as an account manager, I'm working to land a job in Web Development in 2018.</p>
+        <p>I've lived in Utah most my life, but spent a few years oustide of Utah. I lived in Southern Oregon (a little town called Klamath Falls) for two years and then spent two years in the country of Kenya on a church service mission, I can speak some Swahili.</p>
+        <p>My favorite food is Indian Food, I'm a sucker for Naan bread and some Paneer Masala. I don't cook much at home but if I did I'd learn a few of those recipes!!!</p>
+        <p>I envision myself coding for ecommerce websites, online education, and projects that promote growth in third world countries like <a href="https://www.kiva.org/" target="_blank">Kiva</a>. I have a passion for technology and its potential to improve our quality of life. I would love to help growing countries and our country further embrace this technological revolution of which we are a part.</p>
+
+            </div>
+
+            <div class="col-md-3 connect-with-me">
+                <h2 class="content-header">Connect With Me</h2>
+
+                <div>
+                    <a href="https://github.com/IzzleNizzle" target="_blank"><img class="icon" src="assets/githubicon.png" alt="#"></a>
+            
+                    <a href="https://www.linkedin.com/in/-isaacp/" target="_blank"><img class="icon" src="assets/linkedinicon.png" alt="#"></a>
+            
+                    <a href="https://stackoverflow.com/users/8822068/isaac?tab=profile" target="_blank"><img class="icon" src="assets/stackoverflowicon.png" alt="#"></a>
+                    </div>
+            </div>
+
+
+        </div>  
 
 
 
 
+      </div>
+      <!-- End Main Body Content -->
 
+      <!-- Being Sticky Footer -->
+      <footer class="footer">
+        <div class="container">
+          <p>&copy; Copyright 2018 Isaac Pehrson</p>
+        </div>
+      </footer>
+      <!-- End Sticky Footer -->
 
+      <!-- Insert JS Scripts -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-      <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
+      <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

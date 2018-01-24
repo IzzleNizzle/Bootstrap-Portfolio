@@ -1,0 +1,66 @@
+html {
+    background-image: url(../assets/dust_scratches.png);
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: transparent;
+    color: #777777;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    border-top: solid 7px #4aaaa5;
+}
+  
+.nav-right {
+    border-right: solid 1px #cccccc;
+}
+
+.head {
+    background-color: #4aaaa5;
+}
+
+.content-header {
+    border-bottom: solid #cccccc 1px;
+    color: #4aaaa5;
+}
+
+.home-image {
+    height: 200px;
+    width: auto;
+    float: left;
+    margin-right: 25px;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.main-content {
+    border: solid #dddddd 1px;
+}
+
+.connect-with-me {
+    border: solid #dddddd 1px;
+}
