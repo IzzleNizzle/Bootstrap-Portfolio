@@ -48,6 +48,10 @@ body {
     height: 70px;
 }
 
+.icons {
+    padding: 5px 0px 20px 0px;
+}
+
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #ffffff;
     background-color: #4aaaa5;
@@ -59,8 +63,5 @@ body {
 
 .main-content {
     border: solid #dddddd 1px;
-}
-
-.connect-with-me {
-    border: solid #dddddd 1px;
+    background-color: #ffffff;
 }
