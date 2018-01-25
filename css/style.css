@@ -64,4 +64,15 @@ body {
 .main-content {
     border: solid #dddddd 1px;
     background-color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.connect-with-me {
+    border: solid #dddddd 1px;
+    background-color: #ffffff;
+    margin-left: 25px;
+}
+
+.bottom-button {
+    margin-bottom: 25px;
 }
